@@ -1,3 +1,10 @@
+window.onload = function() {
+    myunction();
+  };    
+    
+    
+    
+    
     function myFunction() {
         var input, filter, ul, li, a, i, txtValue;
         input = document.getElementById("myInput");
@@ -27,16 +34,38 @@
     function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         mybutton.style.display = "block";
+        console.log("Zaznamenán scroll", n, "/DEV/")
     } else {
+        console.log("NeZaznamenán scroll", n, "/DEV/")
         mybutton.style.display = "none";
     }
     }
 
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
+    console.log("Kliknutí na tlačítko", n, "/DEV/")
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+    console.log("Posunutí nahoru", n, "/DEV/")
     }
 
 
 
+    var d = new Date();
+    var n = d.toLocaleTimeString();
+
+    function myunction() {
+        if (confirm("Tato stránka je ve vývoji a nejsou nastavena žádná omezení. Nejsou nastavena žádná hesla. V budoucnu budou sbírána data pro vývoj stránky. Kliknutím zrušit nesouhlasíte.")) {
+            console.log("Potvrzeno", n, "/DEV/");
+          } else {
+            console.log("Zrušeno", n, "/DEV/");
+            console.log("Closig in few seconds", n, "/DEV/")
+            close()
+          }
+    }
+
+
+    function klik(){
+        console.log()
+
+    }
