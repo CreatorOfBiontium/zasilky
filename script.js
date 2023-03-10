@@ -32,7 +32,7 @@
         console.log("Zaznamenán scroll", n, "/DEV/")
     } else {
         console.log("NeZaznamenán scroll", n, "/DEV/")
-        mybutton.style.display = "none";
+
     }
     }
 
