@@ -31,7 +31,7 @@
         mybutton.style.display = "block";
         console.log("Zaznamenán scroll", n, "/DEV/")
     } else {
-        console.log("NeZaznamenán scroll", n, "/DEV/")
+        console.log("NeZaznamenán scroll", n, "/DEV/ wut?")
 
     }
     }
