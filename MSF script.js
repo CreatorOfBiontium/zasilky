@@ -48,7 +48,7 @@
     var n = d.toLocaleTimeString();
 
     function myunction() {
-        if (confirm("Tato stránka je ve vývoji a nejsou nastavena žádná omezení. Nejsou nastavena žádná hesla. V budoucnu budou sbírána data pro vývoj stránky. Kliknutím zrušit nesouhlasíte.")) {
+        if (confirm("Tato stránka je ve vývoji a nejsou nastavena žádná omezení. Nejsou nastavena žádná hesla. Kliknutím na zrušit nesouhlasíte.")) {
             console.log("Potvrzeno", n, "/DEV/");
           } else {
             console.log("Zrušeno", n, "/DEV/");
