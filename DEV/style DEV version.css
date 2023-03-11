@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 8%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 0px;
+
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #ffffff;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  
+  body {
+      background-color: rgb(149, 170, 179);
+    }
+
+
+
+    
+
+    div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      background-color: rgb(68, 68, 68);
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    div.sticky2 {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      border: 2px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 4px;
+    }
+
+
+
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 22px;
+      right: 32px;
+      z-index: 99;
+      font-size: 22px;
+      border: none;
+      outline: none;
+      background-color: rgb(135, 156, 165);
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 30px;
+    }
+    
+    #myBtn:hover {
+      background-color: #555;
+      color: rgb(255, 255, 255);        
+    }
+
+
+    #centr{
+      margin-top: 28%;
+      text-align: center;
+      font-size: 15px;        
+    }
+
+
+
+    #centrr{
+      text-align: center;
+      margin-top: 10%;
+      font-size: 15px;    
+    }
