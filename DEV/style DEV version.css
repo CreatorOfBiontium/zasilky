@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
   #myInput {
     background-position: 10px 12px;
     background-repeat: no-repeat;
@@ -31,18 +31,18 @@
     color: black;
     display: block
   }
-  
+
   #myUL li a:hover:not(.header) {
     background-color: #eee;
   }
-  
+
   body {
       background-color: rgb(149, 170, 179);
     }
 
 
 
-    
+
 
     div.sticky {
       position: -webkit-sticky;
@@ -90,7 +90,7 @@
     #centr{
       margin-top: 28%;
       text-align: center;
-      font-size: 15px;        
+      font-size: 15px;
     }
 
 
@@ -98,10 +98,8 @@
     #centrr{
       text-align: center;
       margin-top: 10%;
-      font-size: 15px;    
+      font-size: 15px;
     }
-
-
 
 
     div.admintextcentr{
@@ -109,11 +107,6 @@
       font-size: medium;
 
     }
-
-
-
-
-
 
 
     .btncentrdev{

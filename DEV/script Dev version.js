@@ -62,3 +62,14 @@ function klik(){
     console.log()
 
 }
+
+
+
+
+function backtn(){
+    input2 = document.getElementById("myInput");
+    if(input2.value = "bck"){
+        alert("Funtuje to")
+    }
+
+}
