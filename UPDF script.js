@@ -23,34 +23,55 @@ const firebaseConfig = {
       const stav = document.getElementById('stav').value;
       const inf = document.getElementById('inf').value;
     
+      var a = ""
+      var b = ""
+      var c = ""
+      var d = ""
+
+
 
         if (name != ""){
           firebase.database().ref("addPackages/" + has).update({
             namee: name
-        })};
+        })
+      a = name
+      };
       
         if (numb != ""){
           firebase.database().ref("addPackages/" + has).update({
             numb: numb,
-        })};
+        })
+      b = numb
+      };
 
 
         if (stav != ""){
           firebase.database().ref("addPackages/" + has).update({
             stav: stav
-        })};
+        })
+      c = stav
+      };
 
 
         if (inf != ""){
           firebase.database().ref("addPackages/" + has).update({
             inf: inf
-        })};
+        })
+      d = inf
+      };
+
+      alert("Aktualizováno! ("+ a+ b+ c+ d+ ")")
 
       }
+
+      
+
 
     function remove(event){
       event.preventDefault();
 
       const has = document.getElementById('has').value;
       firebase.database().ref("addPackages/" + has).remove();
+      alert("Odstraněno! (" + has + ")")
+
     }
