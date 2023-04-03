@@ -30,6 +30,8 @@ const firebaseConfig = {
             "Číslo: " + snapshot.val().numb;
           document.getElementById("findStav").innerHTML =
             "Aktuální stav: " + snapshot.val().stav;
+          document.getElementById("findInf").innerHTML =
+            "Informace o zásilce: " + snapshot.val().inf;
           console.log(snapshot.val());
         } else {
           console.log("Nejsou nalezena žádná data");

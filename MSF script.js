@@ -22,8 +22,9 @@ function submitform(e){
     var hastg = getElementVal('has');
     var numb = getElementVal('numb');
     var stav = getElementVal('stav');
+    var inf = getElementVal('inf');
 
-    saveMessages(name, hastg, numb, stav)
+    saveMessages(name, hastg, numb, stav, inf)
     alert("Úspěšně přidáno!")
 
     .catch((error)=>{
@@ -32,7 +33,7 @@ function submitform(e){
 }  
 
 
-const saveMessages = (namee, has, numb, stav) => {
+const saveMessages = (namee, has, numb, stav, inf) => {
     var name = getElementVal('namee');
     var hastg = getElementVal('has');
     var newAddForm = firebase.database().ref('addPackages/' + hastg);
@@ -42,6 +43,7 @@ const saveMessages = (namee, has, numb, stav) => {
         has : has,
         numb : numb,
         stav : stav,
+        inf : inf
     })
 
 };

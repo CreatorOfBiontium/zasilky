@@ -21,10 +21,36 @@ const firebaseConfig = {
       const has = document.getElementById('has').value;
       const numb = document.getElementById('numb').value;
       const stav = document.getElementById('stav').value;
+      const inf = document.getElementById('inf').value;
     
-      firebase.database().ref("addPackages/" + has).update({
-        namee: name,
-        numb: numb,
-        stav: stav
-      });
+
+        if (name != ""){
+          firebase.database().ref("addPackages/" + has).update({
+            namee: name
+        })};
+      
+        if (numb != ""){
+          firebase.database().ref("addPackages/" + has).update({
+            numb: numb,
+        })};
+
+
+        if (stav != ""){
+          firebase.database().ref("addPackages/" + has).update({
+            stav: stav
+        })};
+
+
+        if (inf != ""){
+          firebase.database().ref("addPackages/" + has).update({
+            inf: inf
+        })};
+
+      }
+
+    function remove(event){
+      event.preventDefault();
+
+      const has = document.getElementById('has').value;
+      firebase.database().ref("addPackages/" + has).remove();
     }
