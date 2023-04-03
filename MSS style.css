@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(184, 208, 228);
+
+}
+
+
+.maintext{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  .submt {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  
+  .div2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+ .nadpis{
+  text-align: center;
+  font-size: 50px;
+  font: arial;
+ }
+
+
+
+ .button5 {
+  outline: none;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  padding: 8px 65px;
+  border: 2px solid #555555;
+  display: flex;
+
+
+}
+
+.button5:hover {
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.button6 {
+  outline: none;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: #333;
+  padding: 8px 65px;
+  color: rgb(255, 255, 255);
+  border: 2px solid #555555;
+  display: flex;
+
+}
+
+.button6:hover {
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.button7 {
+  outline: none;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 8px 65px;
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  border: 2px solid #555555;
+  display: flex;
+
+
+}
+
+.button7:hover {
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  color: rgb(0, 0, 0);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(184, 208, 228);
+}
+
+.nadpis {
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 228, 236);
+}
+
+.button {
+  border-radius: 3px;
+  padding: 8px 65px;
+  margin-bottom: 20px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #555;
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: #f1f1f1;
+  color: #000;
+}

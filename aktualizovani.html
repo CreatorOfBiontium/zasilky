@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MSS style.css"> 
+    <title>Uprav data o zásilce</title>
+
+</head>
+<body>
+    
+
+<div class="maintext">
+    <h3>Uprav data o zásilce</h3>
+</div>
+
+
+
+
+
+<div>
+    <form action="" id="actform">
+
+      <label for="lname">Hastag</label>
+      <input type="text" id="has" placeholder="Zadej #....">
+  
+
+      <br><br><h2>Upravit</h2>
+
+      <label for="fname">Jméno</label>
+      <input type="text" id="namee" placeholder="Zadej Jméno">
+
+  
+      <label for="country">Číslo</label>
+      <input type="text" id="numb" placeholder="Zadej Číslo">
+    
+      <label for="country">Aktuální stav</label>
+      <input type="text" id="stav" placeholder="Zadej Aktuální stav" >
+    
+    
+      <button type="submit" class="submt" onclick="update(event)">Upravit</button>
+    </form>
+  </div>
+  
+
+
+
+
+
+
+
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  <script src="UPDF script.js"></script>
+
+  </html>
