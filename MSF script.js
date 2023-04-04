@@ -28,7 +28,7 @@ function submitform(e){
     var inf = getElementVal('inf');
 
         
-
+    if(has != ""){
 
     parentRef.once("value").then(function(snapshot) {
       var packages = [];
@@ -49,7 +49,10 @@ function submitform(e){
         saveMessages(name, hastg, numb, stav, inf)
         alert("Úspěšně přidáno!")}
 
-    });
+    })} else{
+        alert("Musíte vyplnit #!")
+
+    }
 
 }  
 
