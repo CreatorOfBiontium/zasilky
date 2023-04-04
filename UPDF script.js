@@ -28,62 +28,71 @@ const firebaseConfig = {
       var c = stav
       var d = inf
 
-      if(has != ""){
+          firebase.database().ref("addPackages/" + has).get()
+    .then((snapshot) => {
+      if (snapshot.exists()) {
 
-        if (name != ""){
-          firebase.database().ref("addPackages/" + has).update({
-            namee: name
-        })
-        if (a != "") {
-          a = name + ", "
-        } else {
-          a = ""
-        }
-      
-      };
-      
-        if (numb != ""){
-          firebase.database().ref("addPackages/" + has).update({
-            numb: numb,
-        })
-        if (b != "") {
-          b = numb + ", "
-        } else {
-          b = ""
-        }
-      };
+        if(has != ""){
 
+          if (name != ""){
+            firebase.database().ref("addPackages/" + has).update({
+              namee: name
+          })
+          if (a != "") {
+            a = name + ", "
+          } else {
+            a = ""
+          }
+        
+        };
 
-        if (stav != ""){
-          firebase.database().ref("addPackages/" + has).update({
-            stav: stav
-        })
-        if (c != "") {
-          c = stav + ", "
-        } else {
-          c = ""
-        }
-      };
+          if (numb != ""){
+            firebase.database().ref("addPackages/" + has).update({
+              numb: numb,
+          })
+          if (b != "") {
+            b = numb + ", "
+          } else {
+            b = ""
+          }
+        };
 
 
-        if (inf != ""){
-          firebase.database().ref("addPackages/" + has).update({
-            inf: inf
-        })
-        if (d != "") {
-          d = inf + ", "
-        } else {
-          d = ""
-        }
-      };
+          if (stav != ""){
+            firebase.database().ref("addPackages/" + has).update({
+              stav: stav
+          })
+          if (c != "") {
+            c = stav + ", "
+          } else {
+            c = ""
+          }
+        };
 
-      alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ")")
 
-      } else{
-        alert("Pro úpravu musíte zadat #")
-      }}
+          if (inf != ""){
+            firebase.database().ref("addPackages/" + has).update({
+              inf: inf
+          })
+          if (d != "") {
+            d = inf + ", "
+          } else {
+            d = ""
+          }
+        };
 
-      
+        alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ")")
+
+        } else{
+          alert("Pro úpravu musíte zadat #")
+        }}
+
+             else {
+        alert(has + " Nebyl nalezen")
+      }})};
+    
+
+    
 
 
     function remove(event){
@@ -94,3 +103,14 @@ const firebaseConfig = {
       alert("Odstraněno! (" + has + ")")
 
     }
+
+
+
+
+
+
+
+        
+
+
+
