@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MSS style.css"> 
+    <link rel="icon" href="box.png">
+    <title>Přečti info o zásilce</title>
+    
+
+
+</head>
+<body>
+  <ul>
+    <li style="float:left"><a class="active" href="index.html">HUB</a></li>
+    <li><a href="pomoc.html">Pomoc</a></li>        
+    <li><a href="poslizpravu.html">Pošli zásilku</a></li>
+    <li><a href="aktualizovani.html">Uprav zásilku</a></li>
+
+
+  </ul><br><br><br>
+
+<div class="maintext">
+    <h3>Přečti info o zásilce</h3>
+</div>
+
+
+
+
+
+<div>
+    <form action="" id="readform">
+  
+      <label for="lname">Hastag for tracking (h-0000)</label>
+      <input type="text" id="idd" placeholder="Zadej h-....">
+  
+
+      <button id="submit" class="submt" onclick="FindData(event)">Vyhledat</button>
+    </form>
+  </div>
+  
+ <br><br><br>
+
+
+<div class="div2">
+ <h2>Zásilka: </h2>
+ <br><br><br>
+ <h3 id="findName" type="text"></h3><br>
+ <h3 id="findNumb" type="text"></h3><br>
+ <h3 id="findStav" type="text"></h3><br>
+ <h3 id="findInf" type="text"></h3>
+
+</div>
+
+
+
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script> 
+  <script src="FIND script.js"></script>  
+  <script src="Mscript.js"></script>
+
+  </html>
