@@ -14,6 +14,9 @@ firebase.initializeApp(firebaseConfig);
 //ref
 document.getElementById("addform").addEventListener("submit", submitform)
 
+const database = firebase.database();
+
+var parentRef = database.ref("addPackages/");
 
 function submitform(e){
     e.preventDefault();
@@ -24,12 +27,30 @@ function submitform(e){
     var stav = getElementVal('stav');
     var inf = getElementVal('inf');
 
-    saveMessages(name, hastg, numb, stav, inf)
-    alert("Úspěšně přidáno!")
+        
 
-    .catch((error)=>{
-        alert("Něco se pokazilo, zkus to znova za chvíli.")
-    })
+
+    parentRef.once("value").then(function(snapshot) {
+      var packages = [];
+    
+
+      snapshot.forEach(function(childSnapshot) {
+
+        var packageName = childSnapshot.key;
+        packages.push(packageName);
+      });
+
+      var hastg = getElementVal("has");
+
+      if (packages.includes(hastg)) {
+        alert("Tento # je již použit")
+      }
+        else{
+        saveMessages(name, hastg, numb, stav, inf)
+        alert("Úspěšně přidáno!")}
+
+    });
+
 }  
 
 
@@ -47,7 +68,6 @@ const saveMessages = (namee, has, numb, stav, inf) => {
     })
 
 };
-
 
 
 
