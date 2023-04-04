@@ -23,10 +23,10 @@ const firebaseConfig = {
       const stav = document.getElementById('stav').value;
       const inf = document.getElementById('inf').value;
     
-      var a = ""
-      var b = ""
-      var c = ""
-      var d = ""
+      var a = name
+      var b = numb
+      var c = stav
+      var d = inf
 
       if(has != ""){
 
@@ -34,14 +34,23 @@ const firebaseConfig = {
           firebase.database().ref("addPackages/" + has).update({
             namee: name
         })
-      a = name
+        if (a != "") {
+          a = name + ", "
+        } else {
+          a = ""
+        }
+      
       };
       
         if (numb != ""){
           firebase.database().ref("addPackages/" + has).update({
             numb: numb,
         })
-      b = numb
+        if (b != "") {
+          b = numb + ", "
+        } else {
+          b = ""
+        }
       };
 
 
@@ -49,7 +58,11 @@ const firebaseConfig = {
           firebase.database().ref("addPackages/" + has).update({
             stav: stav
         })
-      c = stav
+        if (c != "") {
+          c = stav + ", "
+        } else {
+          c = ""
+        }
       };
 
 
@@ -57,10 +70,14 @@ const firebaseConfig = {
           firebase.database().ref("addPackages/" + has).update({
             inf: inf
         })
-      d = inf
+        if (d != "") {
+          d = inf + ", "
+        } else {
+          d = ""
+        }
       };
 
-      alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ", "+ ")")
+      alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ")")
 
       } else{
         alert("Pro úpravu musíte zadat #")
