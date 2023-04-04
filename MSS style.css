@@ -94,8 +94,6 @@ input[type=text], select {
 }
 
 
-
-
 .button6 {
   outline: none;
   text-decoration: none;
@@ -113,8 +111,6 @@ input[type=text], select {
   background-color: #f1f1f1;
   color: rgb(0, 0, 0);
 }
-
-
 
 
 .button7 {
@@ -208,7 +204,6 @@ li a:hover:not(.active) {
 }
 
 
-
 .containerr {
   display: flex;
   flex-direction: column;
@@ -217,8 +212,6 @@ li a:hover:not(.active) {
   height: 95%;
   background-color: rgb(184, 208, 228);
 }
-
-
 
 .button55 {
   outline: none;
