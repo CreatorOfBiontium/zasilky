@@ -5,6 +5,7 @@ body{
 
 
 .maintext{
+
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 25px;
@@ -50,6 +51,7 @@ input[type=text], select {
   }
   
   div {
+
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -176,11 +178,72 @@ input[type=text], select {
 }
 
 
-.intcls {
+ul {
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #45a049;
+}
+
+
+
+.containerr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  background-color: rgb(184, 208, 228);
+}
+
+
+
+.button55 {
+  outline: none;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  padding: 12px 90px;
+  border: 2px solid #555555;
+  display: flex;
+
+
+}
+
+.button55:hover {
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  color: rgb(0, 0, 0);
+}
+
+.buttonss {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(219, 228, 236);
+  background-color: rgb(158, 202, 240);
 }
