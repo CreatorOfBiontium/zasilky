@@ -22,6 +22,9 @@ const firebaseConfig = {
     firebase.database().ref("addPackages/" + mybut).get()
       .then((snapshot) => {
 
+        if (mybut != "") {
+          
+        
         if (snapshot.exists()) {
 
           document.getElementById("findName").innerHTML =
@@ -37,7 +40,11 @@ const firebaseConfig = {
           console.log("Nejsou nalezena žádná data");
           alert("Nebyla nalezena žádná data!");
         }
-      })
+      }
+    else{
+      alert("Musíte vyplnit #!")
+    }
+    })
 
       
 

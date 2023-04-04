@@ -28,7 +28,7 @@ const firebaseConfig = {
       var c = ""
       var d = ""
 
-
+      if(has != ""){
 
         if (name != ""){
           firebase.database().ref("addPackages/" + has).update({
@@ -62,7 +62,9 @@ const firebaseConfig = {
 
       alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ", "+ ")")
 
-      }
+      } else{
+        alert("Pro úpravu musíte zadat #")
+      }}
 
       
 
