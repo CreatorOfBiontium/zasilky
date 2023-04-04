@@ -60,7 +60,7 @@ const firebaseConfig = {
       d = inf
       };
 
-      alert("Aktualizováno! ("+ a+ b+ c+ d+ ")")
+      alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ", "+ ")")
 
       }
 
