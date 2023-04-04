@@ -22,6 +22,18 @@ input[type=text], select {
   }
   
 
+
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
   .submt {
     width: 100%;
     background-color: #4CAF50;
@@ -161,4 +173,14 @@ input[type=text], select {
   text-decoration: none;
   background-color: #f1f1f1;
   color: #000;
+}
+
+
+.intcls {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 228, 236);
 }
