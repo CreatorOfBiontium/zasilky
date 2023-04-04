@@ -28,7 +28,7 @@ function submitform(e){
     var inf = getElementVal('inf');
 
         
-    if(has != ""){
+    if(hastg != ""){
 
     parentRef.once("value").then(function(snapshot) {
       var packages = [];
