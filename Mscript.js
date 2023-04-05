@@ -1,0 +1,1 @@
+console.log("Zásilky    v. 1.3    HACKERTBI     LU: 16:49, 05.04.23")
