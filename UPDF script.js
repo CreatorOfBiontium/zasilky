@@ -104,21 +104,19 @@ const firebaseConfig = {
       firebase.database().ref("addPackages/" + has).get()
           .then((snapshot) => {
 
-
+        if (has != "") {
             if (snapshot.exists()) {
+                const has = document.getElementById('has').value;
+                firebase.database().ref("addPackages/" + has).remove();
+                alert("Odstraněno! (" + has + ")")
 
-      if (has != "") {
-
-      const has = document.getElementById('has').value;
-      firebase.database().ref("addPackages/" + has).remove();
-      alert("Odstraněno! (" + has + ")")
-
-    } else {
-      alert("Musíte vyplnit #!")
-    }}
-    else{
+                }else{
       if (has != "") {
         alert(has + " nenalezeno!")
       } else {
         alert("# nebyl nalezen")
-      }}})}
+
+        }}} else {
+      alert("Musíte vyplnit #!")
+
+        }})}
