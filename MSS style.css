@@ -149,7 +149,7 @@ input[type=text], select {
 .nadpis {
   font-size: 50px;
   font-family: Arial, sans-serif;
-  margin-bottom: 50px;
+
 }
 
 .buttons {
@@ -162,9 +162,9 @@ input[type=text], select {
 }
 
 .button {
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 8px 65px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   background-color: #333;
   color: #fff;
   border: 2px solid #555;
@@ -246,4 +246,18 @@ li a:hover:not(.active) {
   justify-content: center;
   align-items: center;
   background-color: rgb(158, 202, 240);
+}
+
+.smalll{
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial;
+
+}
+
+.small{
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial;
+
 }
