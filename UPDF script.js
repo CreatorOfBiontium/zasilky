@@ -115,5 +115,5 @@ const firebaseConfig = {
       alert("Musíte vyplnit #!")
     }}
     else{
-        alert(has, " nenalezeno!")
+        alert(has + " nenalezeno!")
     }})}
