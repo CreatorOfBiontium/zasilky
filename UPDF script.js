@@ -111,7 +111,7 @@ const firebaseConfig = {
                 alert("Odstraněno! (" + has + ")")
 
                 }else{
-      if (has != "") {
+      if (has != "") { 
         alert(has + " nenalezeno!")
       } else {
         alert("# nebyl nalezen")
