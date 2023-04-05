@@ -86,10 +86,12 @@ const firebaseConfig = {
         } else{
           alert("Pro úpravu musíte zadat #")
         }}
-
              else {
-        alert(has + " Nebyl nalezen")
-      }})};
+              if (has != "") {
+                alert(has + " nenalezeno!")
+              } else {
+                alert("# nebyl nalezen")
+      }}})};
 
 
 
@@ -115,5 +117,8 @@ const firebaseConfig = {
       alert("Musíte vyplnit #!")
     }}
     else{
+      if (has != "") {
         alert(has + " nenalezeno!")
-    }})}
+      } else {
+        alert("# nebyl nalezen")
+      }}})}
