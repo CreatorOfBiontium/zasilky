@@ -104,7 +104,7 @@ const firebaseConfig = {
       firebase.database().ref("addPackages/" + has).get()
           .then((snapshot) => {
 
-        if (has != "") {
+        if (has == "") {
             if (snapshot.exists()) {
                 const has = document.getElementById('has').value;
                 firebase.database().ref("addPackages/" + has).remove();
