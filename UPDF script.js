@@ -90,24 +90,35 @@ const firebaseConfig = {
              else {
         alert(has + " Nebyl nalezen")
       }})};
-    
-
-    
-      
 
 
 
-      
 
     function remove(event){
       event.preventDefault();
 
+
+      firebase.database().ref("addPackages/" + has).get()
+          .then((snapshot) => {
+
+
+            if (snapshot.exists()) {
+
       if (has != "") {
+
       const has = document.getElementById('has').value;
       firebase.database().ref("addPackages/" + has).remove();
       alert("Odstraněno! (" + has + ")")
+
     } else {
       alert("Musíte vyplnit #!")
-    }
-    }
+    }}
+    else{
+        alert(has, " nenalezeno!")
+    }})}
+
+
+    
+
+
 
