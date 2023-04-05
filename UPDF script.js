@@ -14,14 +14,15 @@ const firebaseConfig = {
 
     const databaseRef = firebase.database().ref("addPackages/");
     
+    const name = document.getElementById('namee').value;
+    const has = document.getElementById('has').value;
+    const numb = document.getElementById('numb').value;
+    const stav = document.getElementById('stav').value;
+    const inf = document.getElementById('inf').value;
+
+
     function update(event){
       event.preventDefault();
-    
-      const name = document.getElementById('namee').value;
-      const has = document.getElementById('has').value;
-      const numb = document.getElementById('numb').value;
-      const stav = document.getElementById('stav').value;
-      const inf = document.getElementById('inf').value;
     
       var a = name
       var b = numb
@@ -107,7 +108,7 @@ const firebaseConfig = {
       firebase.database().ref("addPackages/" + has).get()
           .then((snapshot) => {
 
-        if (has == "") {
+        if (has != "") {
             if (snapshot.exists()) {
                 const has = document.getElementById('has').value;
                 firebase.database().ref("addPackages/" + has).remove();
