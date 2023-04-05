@@ -30,9 +30,12 @@ const firebaseConfig = {
 
           firebase.database().ref("addPackages/" + has).get()
     .then((snapshot) => {
+
+      if(has != ""){
+
       if (snapshot.exists()) {
 
-        if(has != ""){
+        
 
           if (name != ""){
             firebase.database().ref("addPackages/" + has).update({
@@ -84,14 +87,14 @@ const firebaseConfig = {
         alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ")")
 
         } else{
-          alert("Pro úpravu musíte zadat #")
-        }}
-             else {
-              if (has != "") {
+          if (has != "") {
                 alert(has + " nenalezeno!")
               } else {
                 alert("# nebyl nalezen")
-      }}})};
+        }}}
+             else{
+              alert("Pro úpravu musíte zadat #")
+             }})};
 
 
 
