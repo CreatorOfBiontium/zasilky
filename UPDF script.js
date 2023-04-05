@@ -93,24 +93,21 @@ const firebaseConfig = {
     
 
     
+      
 
+
+
+      
 
     function remove(event){
       event.preventDefault();
 
+      if (has != "") {
       const has = document.getElementById('has').value;
       firebase.database().ref("addPackages/" + has).remove();
       alert("Odstraněno! (" + has + ")")
-
+    } else {
+      alert("Musíte vyplnit #!")
     }
-
-
-
-
-
-
-
-        
-
-
+    }
 
