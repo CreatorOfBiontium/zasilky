@@ -43,7 +43,7 @@ function submitform(e){
       var hastg = getElementVal("has");
 
       if (packages.includes(hastg)) {
-        alert("Tento # (" + has +") je již použit")
+        alert("Tento # (" + hastg +") je již použit")
       }
         else{
         saveMessages(name, hastg, numb, stav, inf)
