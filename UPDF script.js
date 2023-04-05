@@ -97,6 +97,7 @@ const firebaseConfig = {
     function remove(event){
       event.preventDefault();
 
+      const has = document.getElementById('has').value;
 
       firebase.database().ref("addPackages/" + has).get()
           .then((snapshot) => {
@@ -116,9 +117,3 @@ const firebaseConfig = {
     else{
         alert(has, " nenalezeno!")
     }})}
-
-
-    
-
-
-
