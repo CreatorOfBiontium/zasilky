@@ -1,1 +1,1 @@
-console.log("Zásilky    v. 1.4A    HACKERTBI   ||  FAQ update") 
+console.log("Zásilky    v. 1.4A    HACKERTBI   ||  FAQ update")
