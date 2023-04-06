@@ -10,27 +10,41 @@
     <body onload="alertt()"></body>
 </head>
 <body>
-    <ul>
-        <li style="float:left"><a class="active" href="https://creatorofbiontium.github.io/zasilky/">HUB</a></li>
-        <li><a href="pomoc.html">Pomoc</a></li>
-        <li><a href="readfromdatabase.html">Přečti info o zásilce</a></li>        
-        <li><a href="poslizpravu.html">Pošli zásilku</a></li>
-        <li><a href="aktualizovani.html">Uprav zásilku</a></li>
+    <ul class="ul">
+        <li style="float:left" class="li"><a class="active" href="https://creatorofbiontium.github.io/zasilky/">HUB</a></li>
+        <li class="li"><a href="pomoc.html">Pomoc</a></li>
+        <li class="li"><a href="readfromdatabase.html">Přečti info o zásilce</a></li>        
+        <li class="li"><a href="poslizpravu.html">Pošli zásilku</a></li>
+        <li class="li"><a href="aktualizovani.html">Uprav zásilku</a></li>
     
       </ul><br><br><br><br><br><br><br><br><br>
 
 </body>
 
+<div class="div3" id="div3">
+    <h3>Tutoriál</h3><br>
+        <h5 class="h5555">
+            Firebase je free to use databáze, ke které je velmi jednoduché se připojit a nahrát data, přečíst data, změnit data a smazat data. <br> V tomto tutoriálu se naučíte dělat vše, na rozhraní tohoto webu. Programovat vás nenaučím.<br>Vše uděláte pouhým vyplněním inputů. <br><br><br> Začněte tím, že si vymyslíte id vašeho tutoriálu.
+            <br><br>
+        </h5>
 
 
 
 
+    <label for="dbname">Id tutoriálu</label>
+    <input type="text" id="dbname" placeholder="Vymyslete kód po váš tutoriál">
+    <button id="submit" class="submt" onclick="fnahrat(event)">Vytvořit tutoriál</button>
+
+</div>
 
 
+
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>  
+<script src="TuTscript.js"></script>
 <script>
 function alertt(){
     alert("Tutoriál není dostupný, ale právě teď se na něm pracuje!")
-
 }
 </script>
 </html>

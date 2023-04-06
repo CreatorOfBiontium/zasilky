@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,24 +10,38 @@
     <body onload="alertt()"></body>
 </head>
 <body>
-    <ul>
-        <li style="float:left"><a class="active" href="https://creatorofbiontium.github.io/zasilky/">HUB</a></li>
-        <li><a href="pomoc.html">Pomoc</a></li>
-        <li><a href="readfromdatabase.html">Přečti info o zásilce</a></li>        
-        <li><a href="poslizpravu.html">Pošli zásilku</a></li>
-        <li><a href="aktualizovani.html">Uprav zásilku</a></li>
+    <ul class="ul">
+        <li style="float:left" class="li"><a class="active" href="https://creatorofbiontium.github.io/zasilky/">HUB</a></li>
+        <li class="li"><a href="pomoc.html">Pomoc</a></li>
+        <li class="li"><a href="readfromdatabase.html">Přečti info o zásilce</a></li>        
+        <li class="li"><a href="poslizpravu.html">Pošli zásilku</a></li>
+        <li class="li"><a href="aktualizovani.html">Uprav zásilku</a></li>
     
-      </ul><br><br><br><br><br><br><br><br><br>
+      </ul><br><br><br>
 
+
+
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Vyhledejte FAQ" title="Type in a faq">
+    
+      <ul id="myUL">
+        <li><a href="#">Je tento web bezpečný?</a></li>
+        <li><a href="#">Jak to funguje?</a></li>
+        <li><a href="#">Můžu si zkopírovat tento web a připojit k databázi?</a></li>
+        <li><a href="#">Jaké další služby nabízíš?</a></li>
+        <li><a href="#">Můžu tento web normálně pořád používat? Nebude to nějak zabírat moc místa?</a></li>
+        <li><a href="#">Kde nhlásím chybu? (btw toto není faq)</a></li>
+
+      </ul><br>
+
+
+
+
+
+
+
+
+    <h6 class="small">Zásilky    v. 1.3.1</h6>
 </body>
 
-
-
-
-<script>
-function alertt(){
-    alert("FAQ není dostupné")
-
-}
-</script>
+<script src="FAQ script.js"></script>
 </html>

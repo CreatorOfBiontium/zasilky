@@ -178,7 +178,7 @@ input[type=text], select {
 }
 
 
-ul {
+.ul {
   border-radius: 5px;
   list-style-type: none;
   margin: 0;
@@ -187,11 +187,11 @@ ul {
   background-color: #333;
 }
 
-li {
+.li {
   float: right;
 }
 
-li a {
+.li a {
   display: block;
   color: white;
   text-align: center;
@@ -199,7 +199,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.li a:hover:not(.active) {
   background-color: #111;
 }
 
@@ -260,4 +260,65 @@ li a:hover:not(.active) {
   font-size: 15px;
   font-family: Arial;
 
+}
+
+.div3{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+.h5555{
+  font-size: 15px;
+  font-family: arial;
+
+
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #ffffff;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+.ctc{
+  font-size: 80px;
+  font-family: arial;
+  text-align: center;
 }
