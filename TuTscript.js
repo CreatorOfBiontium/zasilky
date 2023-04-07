@@ -14,14 +14,14 @@ const firebaseConfig = {
     
     const database = firebase.database();
     var parentRef = database.ref("addPackages/");
-    var dbname = document.getElementById('dbname').value;
+    var dbbname = document.getElementById('dbname').value;
     //onclick="submitform(event)"
 
     var lvll = 0
 
 
     const saveMessagess = () => {
-        var newAddFormm = firebase.database().ref('TUTORIALS/');
+        var newAddFormm = firebase.database().ref('TUTORIALS/' + dbbname);
     
         newAddFormm.set({
             level : lvll
@@ -35,17 +35,20 @@ const firebaseConfig = {
 function fnahrat(e){
     e.preventDefault()
 
-    firebase.database().ref("addPackages/TUTORIALS" + dbname).get()
+    firebase.database().ref("addPackages/TUTORIALS" + dbbname).get()
     .then((snapshot) => {
     
       if (snapshot.exists()){
-            alert("Toto id (" + dbname + ") je již zabráno")
+            alert("Toto id (" + dbbname + ") je již zabráno")
 
 
       } else{
         lvll = 1
+        alert("Toto id může být použito, kliknutím OK vytvoříte tutoriál")        
         saveMessagess()
-        alert("Toto id NEBYLO použito, kliknutím OK vytvoříte tutoriál")
+        localStorage.setItem('datname', dbbname);
+        var a = localStorage.getItem('datname')
+        alert(a)
 
 
     }})}
