@@ -27,10 +27,10 @@ const firebaseConfig = {
       const name = document.getElementById('namee').value;
       const has = document.getElementById('has').value;
       
-      var a = name
-      var b = numb
-      var c = stav
-      var d = inf
+      var a = document.getElementById('namee').value;
+      var b = document.getElementById('numb').value;
+      var c = document.getElementById('stav').value;
+      var d = document.getElementById('inf').value;
 
           firebase.database().ref("addPackages/" + has).get()
     .then((snapshot) => {
@@ -54,7 +54,8 @@ const firebaseConfig = {
 
           if (numb != ""){
             firebase.database().ref("addPackages/" + has).update({
-              numb: numb,
+
+              numb: numb
           })
           if (b != "") {
             b = numb + ", "

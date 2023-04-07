@@ -14,7 +14,7 @@ const firebaseConfig = {
     
     const database = firebase.database();
     var parentRef = database.ref("addPackages/");
-    const dbbname = document.getElementById('dbname').value;
+    var dbbname = document.getElementById('dbname').value;
     //onclick="submitform(event)"
 
     var lvll = 0
