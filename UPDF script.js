@@ -101,7 +101,6 @@ const firebaseConfig = {
 
 
 
-
     function remove(event){
       event.preventDefault();
 
