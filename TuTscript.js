@@ -14,7 +14,7 @@ const firebaseConfig = {
     
     const database = firebase.database();
     var parentRef = database.ref("addPackages/");
-    var dbbname = document.getElementById('dbname').value;
+    const dbbname = document.getElementById('dbname').value;
     //onclick="submitform(event)"
 
     var lvll = 0
@@ -37,6 +37,10 @@ function fnahrat(e){
 
     firebase.database().ref("addPackages/TUTORIALS" + dbbname).get()
     .then((snapshot) => {
+
+        if (dbbname != "") {
+            
+        
     
       if (snapshot.exists()){
             alert("Toto id (" + dbbname + ") je již zabráno")
@@ -50,8 +54,10 @@ function fnahrat(e){
         var a = localStorage.getItem('datname')
         alert(a)
 
+        }}else {
+            alert("Musíte vyplnit pole!")
 
-    }})}
+        }})}
 
 
 

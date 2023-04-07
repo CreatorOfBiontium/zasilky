@@ -325,3 +325,10 @@ input[type=text], select {
   font-family: arial;
 
 }
+
+
+.skoronadpis{
+  font-family: arial;
+  font-size: 45px;
+  text-align: center;
+}
