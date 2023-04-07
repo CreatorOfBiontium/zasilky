@@ -23,7 +23,8 @@ const firebaseConfig = {
 
     function update(event){
       event.preventDefault();
-    
+   
+
       var a = name
       var b = numb
       var c = stav
@@ -37,7 +38,6 @@ const firebaseConfig = {
       if (snapshot.exists()) {
 
         
-
           if (name != ""){
             firebase.database().ref("addPackages/" + has).update({
               namee: name
