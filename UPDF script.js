@@ -24,6 +24,9 @@ const firebaseConfig = {
     function update(event){
       event.preventDefault();
     
+
+        alert(has)
+
       var a = name
       var b = numb
       var c = stav
