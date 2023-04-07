@@ -43,26 +43,51 @@ const firebaseConfig = {
           if (name != ""){
             firebase.database().ref("addPackages/" + has).update({
               namee: name
-          })};
+          })
+          if (a != "") {
+            a = name + ", "
+          } else {
+            a = ""
+          }
+        
+        };
 
           if (numb != ""){
             firebase.database().ref("addPackages/" + has).update({
               numb: numb,
-          })};
+          })
+          if (b != "") {
+            b = numb + ", "
+          } else {
+            b = ""
+          }
+        };
 
 
           if (stav != ""){
             firebase.database().ref("addPackages/" + has).update({
               stav: stav
-          })};
+          })
+          if (c != "") {
+            c = stav + ", "
+          } else {
+            c = ""
+          }
+        };
 
 
           if (inf != ""){
             firebase.database().ref("addPackages/" + has).update({
               inf: inf
-          })};
+          })
+          if (d != "") {
+            d = inf + ", "
+          } else {
+            d = ""
+          }
+        };
 
-        alert("Aktualizováno!")
+        alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ")")
 
         } else{
           if (has != "") {
