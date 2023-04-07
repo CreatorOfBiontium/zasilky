@@ -23,7 +23,9 @@ const firebaseConfig = {
 
     function update(event){
       event.preventDefault();
-   
+
+      const name = document.getElementById('namee').value;
+      const has = document.getElementById('has').value;
 
       var a = name
       var b = numb
