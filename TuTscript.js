@@ -58,3 +58,7 @@ function fnahrat(e){
             alert("Musíte vyplnit pole!")
 
         }})}
+
+        function na(){
+            alert("Tutoriál není dostupný")
+        }
