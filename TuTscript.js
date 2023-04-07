@@ -52,7 +52,7 @@ function fnahrat(e){
         localStorage.setItem('datname', dbbname);
         var a = localStorage.getItem('datname')
         alert("Tutoriál " + a +" byl úspěšně vytvořen!")
-        window.open("https://CreatorOfBiontium.github.io/tutorial1")
+        window.open("https://CreatorOfBiontium.github.io/zasilky/tutorial1")
 
         }}else {
             alert("Musíte vyplnit pole!")

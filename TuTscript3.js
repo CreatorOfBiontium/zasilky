@@ -39,7 +39,7 @@ function fnahrat(e){
         "Hodnota: " + snapshot.val().key;
         
         alert("Úspěšně přeečteno! Kliknutím OK pokračujte")
-        window.open("https://CreatorOfBiontium.github.io/tutorial3")
+        window.open("https://CreatorOfBiontium.github.io/zasilky/tutorial3")
 
       } else{
         alert("klíč nebyl v databázi nalezen. Zkuste to znova, nebo se podívejte na textový tutoriál.")

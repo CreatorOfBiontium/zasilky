@@ -48,7 +48,7 @@ function fnahrat(e){
         })
         saveMessagess()
         alert("Úspěšně uloženo! Kliknutím OK pokračujte")
-        window.open("https://CreatorOfBiontium.github.io/tutorial2")
+        window.open("https://CreatorOfBiontium.github.io/zasilky/tutorial2")
 
 
       } else{
