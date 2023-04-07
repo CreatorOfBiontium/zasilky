@@ -115,9 +115,3 @@ function fnahrat(e){
 
 
     }
-    
-
-
-
-
-    document.getElementById("div3").innerHTML = "whatever";
