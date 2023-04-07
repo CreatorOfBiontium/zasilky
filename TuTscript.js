@@ -56,13 +56,6 @@ function fnahrat(e){
 
 
 
-
-
-
-
-
-
-
     function submitform(e){
         e.preventDefault();
     
@@ -70,6 +63,7 @@ function fnahrat(e){
     
     
         parentRef.once("value").then(function(snapshot) {
+        var namee = getElementVal('namee');
           var packages = [];
         
     
