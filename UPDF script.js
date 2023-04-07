@@ -37,7 +37,6 @@ const firebaseConfig = {
       if (snapshot.exists()) {
 
         
-
           if (name != ""){
             firebase.database().ref("addPackages/" + has).update({
               namee: name
