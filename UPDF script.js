@@ -26,7 +26,7 @@ const firebaseConfig = {
 
       const name = document.getElementById('namee').value;
       const has = document.getElementById('has').value;
-
+      
       var a = name
       var b = numb
       var c = stav
@@ -87,7 +87,7 @@ const firebaseConfig = {
           }
         };
 
-        alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ")")
+        alert("Aktualizováno!")
 
         } else{
           if (has != "") {
