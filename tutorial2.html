@@ -7,7 +7,6 @@
     <title>Tutoriál</title>
     <link rel="stylesheet" href="MSS style.css"> 
     <link rel="icon" href="box.png">
-    <body onload="alertt()"></body>
 </head>
 <body>
     <ul class="ul">
@@ -25,28 +24,28 @@
 <div class="div3" id="div3">
 
         <h5 class="h5555">
-            Firebase je free to use databáze, ke které je velmi jednoduché se připojit a nahrát data, přečíst data, změnit data a smazat data. <br> V tomto tutoriálu se naučíte dělat vše, na rozhraní tohoto webu. Programovat vás nenaučím.<br>Vše uděláte pouhým vyplněním inputů. <br><br><br> Začněte tím, že si vymyslíte id vašeho tutoriálu.
-            <br><br>
+            Jako další potřebujeme přečíst data z firebase. <br>Vyplň id tutoriálu a klíč (key).
         </h5>
 
 
 
 
-    <label for="dbname">Id tutoriálu</label>
-    <input type="text" id="dbname" placeholder="Vymyslete kód po váš tutoriál">
-    <button id="submit" class="submt" onclick="fnahrat(event)">Vytvořit tutoriál</button>
+    <label>Id</label>
+    <input type="text" id="key" placeholder="Vyplň id">
+    <label>Klíč</label>
+    <input type="text" id="val" placeholder="Vyplň klíč">
+    <button id="submit" class="submt" onclick="fnahrat(event)">Vyhledat</button>
+    <br><br>
+    <h2 id="idkk"></h2>
+
 </div>
 <h6 class="small">Zásilky    v. 1.4A</h6>
 
 </body>
 
 <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
-<script src="TuTscript.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>  
+<script src="TuTscript2.js"></script>
 <script src="Mscript.js"></script>
-<script>
-function alertt(){
-    alert("Tutoriál není dostupný, ale právě teď se na něm pracuje!")
-}
-</script>
+
 </html>

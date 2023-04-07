@@ -14,11 +14,6 @@ const firebaseConfig = {
 
     const databaseRef = firebase.database().ref("addPackages/");
     
-    const name = document.getElementById('namee').value;
-    const has = document.getElementById('has').value;
-    const numb = document.getElementById('numb').value;
-    const stav = document.getElementById('stav').value;
-    const inf = document.getElementById('inf').value;
 
 
     function update(event){
@@ -26,6 +21,9 @@ const firebaseConfig = {
 
       const name = document.getElementById('namee').value;
       const has = document.getElementById('has').value;
+      const numb = document.getElementById('numb').value;
+      const stav = document.getElementById('stav').value;
+      const inf = document.getElementById('inf').value;
       
       var a = document.getElementById('namee').value;
       var b = document.getElementById('numb').value;
@@ -49,12 +47,11 @@ const firebaseConfig = {
           } else {
             a = ""
           }
-        
+
         };
 
           if (numb != ""){
             firebase.database().ref("addPackages/" + has).update({
-
               numb: numb
           })
           if (b != "") {
@@ -62,6 +59,7 @@ const firebaseConfig = {
           } else {
             b = ""
           }
+
         };
 
 
@@ -74,6 +72,7 @@ const firebaseConfig = {
           } else {
             c = ""
           }
+
         };
 
 
@@ -86,9 +85,10 @@ const firebaseConfig = {
           } else {
             d = ""
           }
+
         };
 
-        alert("Aktualizováno! ("+ a + ", " + b + ", " + c + ", " + d + ")")
+        alert("Aktualizováno! ("+ a  + b +  c +  d + ")")
 
         } else{
           if (has != "") {

@@ -14,16 +14,14 @@ const firebaseConfig = {
     
     const database = firebase.database();
     var parentRef = database.ref("addPackages/");
-    var dbbname = document.getElementById('dbname').value;
     //onclick="submitform(event)"
 
     var lvll = 0
 
 
     const saveMessagess = () => {
-        var newAddFormm = firebase.database().ref('TUTORIALS/' + dbbname);
-    
-        newAddFormm.set({
+        var dbbname = document.getElementById('dbname').value;    
+        firebase.database().ref('TUTORIALS/' + dbbname).set({
             level : lvll
         })
     
@@ -34,7 +32,8 @@ const firebaseConfig = {
 
 function fnahrat(e){
     e.preventDefault()
-
+    
+    var dbbname = document.getElementById('dbname').value;
     firebase.database().ref("addPackages/TUTORIALS" + dbbname).get()
     .then((snapshot) => {
 
@@ -48,73 +47,14 @@ function fnahrat(e){
 
       } else{
         lvll = 1
-        alert("Toto id může být použito, kliknutím OK vytvoříte tutoriál")        
+        alert("Toto id může být použito, kliknutím OK vytvoříte tutoriál")
         saveMessagess()
         localStorage.setItem('datname', dbbname);
         var a = localStorage.getItem('datname')
-        alert(a)
+        alert("Tutoriál " + a +" byl úspěšně vytvořen!")
+        window.open("https://CreatorOfBiontium.github.io/tutorial1")
 
         }}else {
             alert("Musíte vyplnit pole!")
 
         }})}
-
-
-
-
-    function submitform(e){
-        e.preventDefault();
-    
-
-    
-    
-        parentRef.once("value").then(function(snapshot) {
-        var namee = getElementVal('namee');
-          var packages = [];
-        
-    
-          snapshot.forEach(function(childSnapshot) {
-    
-            var packageName = childSnapshot.key;
-            packages.push(packageName);
-          });
-    
-          var hastg = getElementVal("has");
-    
-          if (packages.includes(hastg)) {
-            alert("Tento # (" + hastg +") je již použit")
-          }
-            else{
-            saveMessages(name, hastg, numb, stav, inf)
-            alert("Úspěšně přidáno!")}
-    
-        })} 
-    
-
-    
-    
-    const saveMessages = (namee, hastg, numb, stav, inf) => {
-        var namee = getElementVal('namee');
-        var hastg = getElementVal('has');
-        var newAddForm = firebase.database().ref('addPackages/' + hastg);
-    
-        newAddForm.set({
-            name : namee,
-            has : hastg,
-            numb : numb,
-            stav : stav,
-            inf : inf
-        })
-    
-    };
-    
-    
-    
-    
-
-    function more(e){
-        e.preventDefault();
-
-
-
-    }
