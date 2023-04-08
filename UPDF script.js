@@ -86,7 +86,7 @@ const firebaseConfig = {
               inf: inf
           })
           if (d != "") {
-            d = inf + ", "
+            d = inf
           } else {
             d = ""
           }
