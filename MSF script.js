@@ -50,7 +50,8 @@ function submitform(e){
 
         if(confirm("Úspěšně přidáno!")){
 } else{
-
+firebase.database().ref("addPackages/" + hastg).remove()
+alert("Odstraněno!")
 }
 
 }
