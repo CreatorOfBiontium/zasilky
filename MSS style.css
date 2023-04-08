@@ -315,10 +315,20 @@ input[type=text], select {
 }
 
 .ctc{
-  font-size: 80px;
+  font-size: 90px;
   font-family: arial;
   text-align: center;
 }
+
+.tct{
+  font-size: 35px;
+  font-family: arial;
+  text-align: center;
+
+}
+
+
+
 
 .univ{
   font-size: 20px;

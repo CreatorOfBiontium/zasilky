@@ -1,1 +1,0 @@
-console.log("Zásilky    v. 1.4B    HACKERTBI   ||  OK/cancle update (a version)")

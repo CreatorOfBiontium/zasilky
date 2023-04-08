@@ -1,0 +1,1 @@
+console.log("Zásilky    v. 1.4D    HACKERTBI   ||  404, licence-scripts update")
