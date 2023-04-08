@@ -47,7 +47,13 @@ function submitform(e){
       }
         else{
         saveMessages(name, hastg, numb, stav, inf)
-        alert("Úspěšně přidáno!")}
+
+        if(confirm("Úspěšně přidáno!")){
+} else{
+
+}
+
+}
 
     })} else{
         alert("Musíte vyplnit #!")
