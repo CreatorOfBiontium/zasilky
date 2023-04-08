@@ -30,6 +30,11 @@ const firebaseConfig = {
       var c = document.getElementById('stav').value;
       var d = document.getElementById('inf').value;
 
+      if (confirm("Opravdu chcete upravit tato data?")) {
+        
+      
+
+
           firebase.database().ref("addPackages/" + has).get()
     .then((snapshot) => {
 
@@ -98,7 +103,13 @@ const firebaseConfig = {
         }}}
              else{
               alert("Pro úpravu musíte zadat #")
-             }})};
+             }})
+            
+            
+            } else {
+
+        
+      }}
 
 
 
@@ -106,6 +117,12 @@ const firebaseConfig = {
       event.preventDefault();
 
       const has = document.getElementById('has').value;
+
+
+      if (confirm("Opravdu chcete odstrabit tato data?")) {
+        
+      
+
 
       firebase.database().ref("addPackages/" + has).get()
           .then((snapshot) => {
@@ -126,3 +143,4 @@ const firebaseConfig = {
       alert("Musíte vyplnit #!")
 
         }})}
+        else{}}
