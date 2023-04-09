@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://creatorofbiontium.github.io/MSS style.css"> 
+    <link rel="icon" href="https://creatorofbiontium.github.io/box.png">
+    <title>Uprav data o zásilce</title>
+
+</head>
+<body>
+    
+  <ul class="ul">
+    <li style="float:left" class="li"><a class="active" href="https://creatorofbiontium.github.io/zasilky/">HUB</a></li>   
+    <li class="li"><a href="https://creatorofbiontium.github.io/pomoc.html" class="li">Pomoc</a></li>     
+    <li class="li"><a href="https://creatorofbiontium.github.io/dat1/poslizpravu.html" class="li">Pošli zásilku</a></li>
+    <li class="li"><a href="https://creatorofbiontium.github.io/dat1/readfromdatabase.html" class="li">Přečti info o zásilce</a></li>
+
+
+  </ul><br><br><br>
+
+
+<div class="maintext">
+    <h3>Uprav data o zásilce</h3>
+</div>
+
+
+
+
+
+<div>
+    <form action="" id="actform">
+
+      <label for="lname">Hastag</label>
+      <input type="text" id="has" placeholder="Zadej #....">
+  
+
+      <br><br><h2>Upravit</h2>
+
+      <label for="fname">Jméno</label>
+      <input type="text" id="namee" placeholder="Zadej Jméno">
+
+  
+      <label for="country">Číslo</label>
+      <input type="text" id="numb" placeholder="Zadej Číslo">
+    
+      <label for="country">Aktuální stav</label>
+      <input type="text" id="stav" placeholder="Zadej Aktuální stav" >
+    
+      <label for="inf">Informace o zásilce</label>
+      <input type="text" id="inf" placeholder="Zadej informace o zásilce">
+      
+      <button type="submit" class="submt" onclick="update(event)">Upravit</button>
+      <button type="submit" class="submt" onclick="remove(event)">odstranit</button>      
+    </form>
+  </div>
+  
+
+
+
+
+
+
+  <h6 class="small">Zásilky    v. 1.4D</h6>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  <script src="https://creatorofbiontium.github.io/scripts/UPDF script.js"></script>
+  <script src="https://creatorofbiontium.github.io/scripts/Mscript.js"></script>
+
+  </html>
