@@ -1,11 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAY3YK0vz236EVPcx2WQEXmH5H_txvckBM",
-    authDomain: "packages-82878.firebaseapp.com",
-    databaseURL: "https://packages-82878-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "packages-82878",
-    storageBucket: "packages-82878.appspot.com",
-    messagingSenderId: "796231716458",
-    appId: "1:796231716458:web:30e3ffeeea831af5514413"
+  apiKey: "AIzaSyAWqCuJDeK91uQQ1UC5zVL_Ig9_OdQGQGU",
+  authDomain: "addpackages2.firebaseapp.com",
+  databaseURL: "https://addpackages2-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "addpackages2",
+  storageBucket: "addpackages2.appspot.com",
+  messagingSenderId: "554477795181",
+  appId: "1:554477795181:web:b30724f8abb88313abcc64",
+  measurementId: "G-N03W93P91R"
   };
   
   firebase.initializeApp(firebaseConfig);

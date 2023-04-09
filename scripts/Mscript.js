@@ -1,1 +1,1 @@
-console.log("Zásilky    v. 1.4D    HACKERTBI   ||  404, licence-scripts update")
+console.log("Zásilky    v. 2.0    HACKERTBI   ||  2dat update")
