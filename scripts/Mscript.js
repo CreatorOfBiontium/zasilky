@@ -1,1 +1,1 @@
-console.log("Zásilky    v. 2.0    HACKERTBI   ||  2dat update")
+console.log("Zásilky    v. 2.0    HACKERTBI   ||  Pomoc update")

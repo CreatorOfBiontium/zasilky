@@ -333,6 +333,7 @@ input[type=text], select {
 }
 
 .div4{
+  height: 95%;
   border-radius: 5px;
   background-color: #ffffff;
   padding: 20px;
@@ -340,20 +341,37 @@ input[type=text], select {
 
 .pdnps{
   font-family: Arial;
-  font-size: 40px;
-  float: left;
+  font-size: 35px;
 }
 
 .dlstxt{
   text-decoration: none;
   font-family: Arial;
   font-size: 20px;
-  float: left;
 }
 
 .dlspdndps{
   font-family: Arial;
-  font-size: 25px;
-  float: left;
+  font-size: 15px;
   color: rgb(75, 75, 75);
+}
+
+.div4_butt_all_Onclick-moreContent{
+
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+
+.div5{
+  margin-top: 5px;
+  height: 95%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
 }
