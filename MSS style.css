@@ -345,6 +345,7 @@ input[type=text], select {
 }
 
 .dlstxt{
+  text-decoration: none;
   font-family: Arial;
   font-size: 20px;
   float: left;
