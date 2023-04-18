@@ -50,7 +50,6 @@ input[type=text], select {
   }
   
   div {
-
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -58,6 +57,8 @@ input[type=text], select {
 
   
   .div2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -228,8 +229,6 @@ input[type=text], select {
   padding: 12px 90px;
   border: 2px solid #555555;
   display: flex;
-
-
 }
 
 .button55:hover {
@@ -251,14 +250,12 @@ input[type=text], select {
   text-align: center;
   font-size: 12px;
   font-family: Arial;
-
 }
 
 .small{
   text-align: center;
   font-size: 15px;
   font-family: Arial;
-
 }
 
 .div3{
@@ -268,15 +265,10 @@ input[type=text], select {
 }
 
 
-
 .h5555{
   font-size: 15px;
   font-family: arial;
-
-
 }
-
-
 
 
 * {
@@ -328,17 +320,39 @@ input[type=text], select {
 }
 
 
-
-
 .univ{
   font-size: 20px;
   font-family: arial;
 
 }
 
-
 .skoronadpis{
   font-family: arial;
   font-size: 45px;
   text-align: center;
+}
+
+.div4{
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.pdnps{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  float: left;
+}
+
+.dlstxt{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  float: left;
+}
+
+.dlspdndps{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  float: left;
+  color: rgb(75, 75, 75);
 }
