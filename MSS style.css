@@ -339,20 +339,20 @@ input[type=text], select {
 }
 
 .pdnps{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-family: Arial;
+  font-size: 55px;
   float: left;
 }
 
 .dlstxt{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-family: Arial;
+  font-size: 35px;
   float: left;
 }
 
 .dlspdndps{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-family: Arial;
+  font-size: 25px;
   float: left;
   color: rgb(75, 75, 75);
 }
