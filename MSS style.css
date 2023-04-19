@@ -333,6 +333,7 @@ input[type=text], select {
 }
 
 .div4{
+  margin: 5px;
   height: 85%;
   border-radius: 5px;
   background-color: #ffffff;
@@ -357,24 +358,22 @@ input[type=text], select {
 }
 
 .div4_butt_all_Onclick-moreContent{
-
   background-color: #4CAF50;
   color: white;
   padding: 10px 25px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-
 }
 
 
-.div5{
-  margin-top: 5px;
-  height: 95%;
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 20px;
-}
+.div5{          /* Abanonded */
+  margin-top: 5px;          /* Abanonded */
+  height: 95%;          /* Abanonded */
+  border-radius: 5px;         /* Abanonded */
+  background-color: #ffffff;          /* Abanonded */
+  padding: 20px;          /* Abanonded */
+}         /* Abanonded */
 
 
 /* width */
