@@ -7,7 +7,6 @@
     <title>Pomoc</title>
     <link rel="stylesheet" href="MSS style.css"> 
     <link rel="icon" href="box.png">
-    <body onload="alertt()"></body>
 </head>
 <body>
     <ul class="ul">
@@ -22,7 +21,7 @@
         <h3 class="pdnps">Spravovat data</h3>
         <h6 class="dlspdndps">Naučte se nahrávat, upravovat a mazat data na Firebase pomocí tohoto webu!</h6><br>
 
-        <h5 class="dlstxt">
+        <h5 class="dlstxt" id="stEll">
             
             Zda-li jste se dostali sem, tak jste již seznámeni s rozhraním webu. Vše zde ale probereme podrobněji.
 
@@ -32,7 +31,7 @@
             <br><br><br><br>WEB <br><br>Na vrchní části obrazovky se nachází navigační panel, na kterém jsou odkazy na stránky zásilek.<br>Na stránkách pro správu dat jsou textová pole do kterých se vypisují potřebné informace.
             <br>...<br><br><br>
             
-            <button id="div4_butt_SprDat_Onclick-moreContent" class="div4_butt_all_Onclick-moreContent" onclick="nnds()">Více informací</button>
+            <button id="div4_butt_SprDat_Onclick-moreContent" class="div4_butt_all_Onclick-moreContent" onclick="show_content_st()">Více informací</button>
 
         </h5>
     </div><br><br>
@@ -42,7 +41,7 @@
         <h3 class="pdnps">Nevídaná chyba</h3>
         <h6 class="dlspdndps">Informace co dělat v případě nevýdané chyby</h6><br>
 
-        <h5 class="dlstxt">
+        <h5 class="dlstxt" id="ndEll">
             
             Zda-li se u vás vyskytla nevýdaná chyba, pokračujte podle následujících pokynů. <br><br>
             <br>1) 404<br><br>Ujistěte se, že jste na správné adrese, pokud si jste jistí že máte zadanou správnou adresu, přejděte do hubu a přejděte, <br>tam kam jste plánovali jít. Jestli je stránka pořák k nenalezení kontaktujte mě.
@@ -50,7 +49,7 @@
 
             <br>...<br><br><br>
             
-            <button id="div4_butt_Err_Onclick-moreContent" class="div4_butt_all_Onclick-moreContent" onclick="nnds()">Více informací</button>
+            <button id="div4_butt_Err_Onclick-moreContent" class="div4_butt_all_Onclick-moreContent" onclick="show_content_nd()">Více informací</button>
 
         </h5>
 
