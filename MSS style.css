@@ -333,7 +333,7 @@ input[type=text], select {
 }
 
 .div4{
-  height: 95%;
+  height: 85%;
   border-radius: 5px;
   background-color: #ffffff;
   padding: 20px;
@@ -374,4 +374,31 @@ input[type=text], select {
   border-radius: 5px;
   background-color: #ffffff;
   padding: 20px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
 }
