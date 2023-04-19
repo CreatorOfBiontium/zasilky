@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomoc</title>
+    <link rel="stylesheet" href="MSS style.css"> 
+    <link rel="icon" href="box.png">
+</head>
+<body>
+    <ul class="ul">
+        <li style="float:left" class="li"><a class="active" href="https://creatorofbiontium.github.io/zasilky/">HUB</a></li>
+        <li class="li"><a href="https://creatorofbiontium.github.io/zasilky/pomoc.html">Pomoc</a></li>
+        <li class="li"><a href="https://creatorofbiontium.github.io/zasilky/dat1/readfromdatabase.html">Přečti info o zásilce</a></li>   
+        <li class="li"><a href="https://creatorofbiontium.github.io/zasilky/dat1/aktualizovani.html">Uprav zásilku</a></li>             
+        <li class="li"><a href="https://creatorofbiontium.github.io/zasilky/dat1/poslizpravu.html">Pošli zásilku</a></li>
+    </ul><br><br>
+
+    <div class="div4">
+        <h3 class="pdnps">Spravovat data</h3>
+        <h6 class="dlspdndps">Naučte se nahrávat, upravovat a mazat data na Firebase pomocí tohoto webu!</h6><br>
+
+        <h5 class="dlstxt" id="stEll">
+            <script src="scripts/dpomocscriptO1.js"></script>
+            Zda-li jste se dostali sem, tak jste již seznámeni s rozhraním webu. Vše zde ale probereme podrobněji.
+
+            <br>Jestli chcete data <a href="https://creatorofbiontium.github.io/zasilky/dat1/poslizpravu.html">nahrát</a>, <a href="https://creatorofbiontium.github.io/zasilky/dat1/aktualizovani.html">upravit</a>, <a href="https://creatorofbiontium.github.io/zasilky/dat1/readfromdatabase.html">přečíst</a> nebo <a href="https://creatorofbiontium.github.io/zasilky/dat1/aktualizovani.html">smazat</a>, 
+            můžete vše udělat velmi jednoduše.
+
+            <br><br><br><br>WEB <br><br>Na vrchní části obrazovky se nachází navigační panel, na kterém jsou odkazy na stránky zásilek.<br>Na stránkách pro správu dat jsou textová pole do kterých se vypisují potřebné informace.<br>
+            <br><br><br><br>NAHRÁVÁNÍ DAT O ZÁSILCE<br><br>Po otevření <a href="https://creatorofbiontium.github.io/zasilky/dat1/poslizpravu.html">tohoto odkazu</a>, musíte vyplnit potřebné info o zásilce, nejdůležitější je hastag - bez něho to ani nejde.<br>Hastag slouží jako "sledovaní číslo" nebo id pro zásilku. To na nahrání zásilky stačí. Můžete ale také vyplnit info o příjemci,<br>jméno a jeho telefoní číslo, nebo/táké informace o zásilce, krátký popis zásilky a aktuální stav.<br>Po vyplnění stiskněte tlačítko Přidat.
+            <br><br><br><br>PŘEČTENÍ DAT O ZÁSILCE<br><br>Otevřete <a href="">tento odkaz</a> av něm musíte vyplnit hastag. Jak jsem již minule zmiňoval, slouží jako id pro balíček informací o zásilce.<br>Po stiskbutí tlačítka vyhledat se Vám objeví informace o zásilce s id které jste zadal.
+            <br><br><br><br>UPRAVENÍ DAT O ZÁSILCE<br><br>Na <a href="">stránce pro upravení dat</a> musíte jako vždy zadat hastag, který (jen připomínám) slouží jako id. Nadále vyplňte pole, které chcete informací, které chcete upravit.<br>Zda-li chcete vymyzat jenom např. jméno, musíte do pole zadat " " (mezeru). Znovu jako u předchozích radách, stiskněte odesílací tlačítko, v tomto případě tlačítko Upravit.
+            <br><br><br><br>ODSTRANĚNÍ DAT O/ZÁSILKU<br><br>Na <a href="">tomto stejném odkaze</a> vyplňte hastag. To je vše. Tedy zmáčkňete tlačítko odstranit.<br>Zásilka se odstraní.
+            <br><br><br><br><br>RADA:<br>Existují 2 místa kam můžete uložit data o zásilce. Hlavní je cloud 1.<br>Na něj se ukládá vše a odkazy směřují na stránky na připojení k němu.<br>Můžete to ale změnit tak, že odkaz upravíte z .../dat1/... na .../dat2/... . Z dat1 nelzou vyhledávat zásilky na dat2, ani naopak.
+
+
+            
+            <br><br><button id="div4_butt_SprDat_Onclick-lessContent" class="div4_butt_all_Onclick-moreContent" onclick="hide_content_st()">Méně informací</button>
+
+        </h5>
+
+
+
+
+    </div><br>
+      <h6 class="small">Zásilky    v. 2.0</h6>
+</body>
+
+
+
+<script src="scripts/Mscript.js"></script>
+<script src="scripts/dpomocscript.js"></script>
+</html>
