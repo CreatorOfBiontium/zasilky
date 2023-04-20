@@ -401,3 +401,15 @@ input[type=text], select {
 ::-webkit-scrollbar-track {
   border-radius: 5px;
 }
+
+
+
+
+.pfp{
+  border-radius: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin: 1px;
+}

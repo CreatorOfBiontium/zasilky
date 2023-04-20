@@ -22,7 +22,7 @@ function show_content_nd(){
     sleep(3500).then(() => {
         setTimeout(change_b(), 1);
     });
-    
+
 
 }
 
