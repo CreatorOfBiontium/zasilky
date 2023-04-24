@@ -411,8 +411,6 @@ input[type=text], select {
   margin: 1px;
 }
 
-
-
 .breadcrumbp {
   padding: 10px 16px;
   list-style: none;
@@ -437,7 +435,6 @@ input[type=text], select {
   color: #000000;
   text-decoration: underline;
 }
-
 
 .breadcrumb {
   padding: 10px 16px;
