@@ -1,4 +1,4 @@
-console.log("Zásilky    v. 2.2    HACKERTBI   ||  Pomoc update v 2.0")
+console.log("Zásilky    v. 2.2.5    HACKERTBI   ||  Breadcrumb update")
 
 
 const myImage = document.getElementById('pfp');
