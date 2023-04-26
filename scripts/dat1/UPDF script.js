@@ -97,11 +97,11 @@ const firebaseConfig = {
 
         } else{
           if (has != "") {
-            document.getElementById("jinyalert").innerHTML = has + " nenalezeno!";
-            jinyalert()
+            document.getElementById("ntf").innerHTML = "Hastag (" + has + ") nebyl nalezen!";
+            ntf()
               } else {
-                document.getElementById("jinyalert").innerHTML = "# nebyl nalezen";
-                jinyalert()
+                document.getElementById("ntf").innerHTML = "# nebyl nalezen";
+                ntf()
         }}}
              else{
               document.getElementById("jinyalert").innerHTML = "Musíte vyplnit #!";
@@ -141,7 +141,7 @@ const firebaseConfig = {
         ntf()
       } else {
         document.getElementById("ntf").innerHTML = "# nebyl nalezen";
-        ntf
+        ntf()
 
         }}} else {
       document.getElementById("jinyalert").innerHTML = "Musíte vyplnit #!";
