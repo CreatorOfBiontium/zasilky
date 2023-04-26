@@ -527,7 +527,7 @@ input[type=text], select {
 
 
 
-.aktualizovanoUsp {
+#aktualizovanoUsp {
   visibility: hidden;
   min-width: 250px;
   margin-left: -125px;
@@ -543,7 +543,7 @@ input[type=text], select {
   font-size: 17px;
 }
 
-.aktualizovanoUsp.show {
+#aktualizovanoUsp.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
@@ -569,7 +569,7 @@ input[type=text], select {
   to {bottom: 0; opacity: 0;}
 }
 
-.odstranenoUsp {
+#odstranenoUsp {
   visibility: hidden;
   min-width: 250px;
   margin-left: -125px;
@@ -585,7 +585,7 @@ input[type=text], select {
   font-size: 17px;
 }
 
-.odstranenoUsp.show {
+#odstranenoUsp.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
@@ -612,7 +612,7 @@ input[type=text], select {
 }
 
 
-.necosepokazilo {
+#necosepokazilo {
   visibility: hidden;
   min-width: 250px;
   margin-left: -125px;
@@ -628,7 +628,7 @@ input[type=text], select {
   font-size: 17px;
 }
 
-.necosepokazilo.show {
+#necosepokazilo.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
@@ -654,7 +654,7 @@ input[type=text], select {
   to {bottom: 0; opacity: 0;}
 }
 
-.anahranoUsp {
+#anahranoUsp {
   visibility: hidden;
   min-width: 250px;
   margin-left: -125px;
@@ -670,7 +670,7 @@ input[type=text], select {
   font-size: 17px;
 }
 
-.nahranoUsp.show {
+#nahranoUsp.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
@@ -697,7 +697,7 @@ input[type=text], select {
 }
 
 
-.jinyalert {
+#jinyalert {
   visibility: hidden;
   min-width: 250px;
   margin-left: -125px;
@@ -713,7 +713,7 @@ input[type=text], select {
   font-size: 17px;
 }
 
-.jinyalert.show {
+#jinyalert.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
