@@ -97,12 +97,15 @@ const firebaseConfig = {
 
         } else{
           if (has != "") {
-                alert(has + " nenalezeno!")
+            document.getElementById("jinyalert").innerHTML = has + " nenalezeno!";
+            jinyalert()
               } else {
-                alert("# nebyl nalezen")
+                document.getElementById("jinyalert").innerHTML = "# nebyl nalezen";
+                jinyalert()
         }}}
              else{
-              alert("Pro úpravu musíte zadat #")
+              document.getElementById("jinyalert").innerHTML = "Musíte vyplnit #!";
+              jinyalert()
              }})
             
             
