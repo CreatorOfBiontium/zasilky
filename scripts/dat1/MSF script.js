@@ -43,21 +43,23 @@ function submitform(e){
       var hastg = getElementVal("has");
 
       if (packages.includes(hastg)) {
-        alert("Tento # (" + hastg +") je již použit")
+        document.getElementById("jinyalert").innerHTML = "Tento # (" + hastg +") je již použit";
+                jinyalert()
       }
         else{
         saveMessages(name, hastg, numb, stav, inf)
 
-        if(confirm("Úspěšně přidáno!")){
+        if(confirm("Opravdu přidat?")){ nahranoUsp()
 } else{
 firebase.database().ref("addPackages/" + hastg).remove()
-alert("Odstraněno!")
+odstranenoUsp()
 }
 
 }
 
     })} else{
-        alert("Musíte vyplnit #!")
+        document.getElementById("jinyalert").innerHTML = "Musíte vyplnit #!";
+        jinyalert()
 
     }
 
@@ -80,9 +82,33 @@ const saveMessages = (namee, has, numb, stav, inf) => {
 };
 
 
-
-
 const getElementVal = (id) => {
     return document.getElementById(id).value;
 };  
 
+
+
+
+function nahranoUsp(){
+  var x = document.getElementById("nahranoUsp");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function necosepokazilo() {
+  var x = document.getElementById("necosepokazilo");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function jinyalert() {
+  var x = document.getElementById("jinyalert");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function odstranenoUsp() {
+  var x = document.getElementById("odstranenoUsp");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
