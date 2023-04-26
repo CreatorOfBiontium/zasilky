@@ -531,7 +531,7 @@ input[type=text], select {
   visibility: hidden;
   width: 300px;
   height: 80px;
-  margin-left: -125px;
+  margin-left: 45%;
   background-color: #10c100;
   color: #fff;
   text-align: center;
@@ -574,7 +574,7 @@ input[type=text], select {
   visibility: hidden;
   width: 300px;
   height: 80px;
-  margin-left: -125px;
+  margin-left: 45%;
   background-color: #10c100;
   color: #fff;
   text-align: center;
@@ -618,7 +618,7 @@ input[type=text], select {
   visibility: hidden;
   width: 300px;
   height: 80px;
-  margin-left: -125px;
+  margin-left: 45%;
   background-color: #ff1616;
   color: #fff;
   text-align: center;
@@ -661,7 +661,7 @@ input[type=text], select {
   visibility: hidden;
   width: 300px;
   height: 80px;
-  margin-left: -125px;
+  margin-left: 45%;
   background-color: #10c100;
   color: #fff;
   text-align: center;
@@ -705,7 +705,7 @@ input[type=text], select {
   visibility: hidden;
   width: 300px;
   height: 80px;
-  margin-left: -125px;
+  margin-left: 45%;
   background-color: #ffe600;
   color: #fff;
   text-align: center;
@@ -749,7 +749,7 @@ input[type=text], select {
   visibility: hidden;
   width: 300px;
   height: 80px;
-  margin-left: -125px;
+  margin-left: 45%;
   background-color: #ff1616;
   color: #fff;
   text-align: center;
