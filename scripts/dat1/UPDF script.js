@@ -119,7 +119,7 @@ const firebaseConfig = {
       const has = document.getElementById('has').value;
 
 
-      if (confirm("Opravdu chcete odstrabit tato data?")) {
+      if (confirm("Opravdu chcete odstranit tato data?")) {
         
       
 
