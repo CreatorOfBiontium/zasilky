@@ -534,12 +534,12 @@ input[type=text], select {
   color: #fff;
   text-align: center;
   border-radius: 3px;
-  padding: 16px;
+  padding: 20px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #aktualizovanoUsp.show {
@@ -577,12 +577,12 @@ input[type=text], select {
   color: #fff;
   text-align: center;
   border-radius: 3px;
-  padding: 16px;
+  padding: 20px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #odstranenoUsp.show {
@@ -621,12 +621,12 @@ input[type=text], select {
   color: #fff;
   text-align: center;
   border-radius: 3px;
-  padding: 16px;
+  padding: 20px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #necosepokazilo.show {
@@ -663,12 +663,12 @@ input[type=text], select {
   color: #fff;
   text-align: center;
   border-radius: 3px;
-  padding: 16px;
+  padding: 20px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #nahranoUsp.show {
@@ -706,12 +706,12 @@ input[type=text], select {
   color: #fff;
   text-align: center;
   border-radius: 3px;
-  padding: 16px;
+  padding: 20px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #jinyalert.show {
@@ -749,12 +749,12 @@ input[type=text], select {
   color: #fff;
   text-align: center;
   border-radius: 3px;
-  padding: 16px;
+  padding: 20px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #ntf.show {
