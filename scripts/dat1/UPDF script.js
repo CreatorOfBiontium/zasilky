@@ -133,15 +133,15 @@ const firebaseConfig = {
             if (snapshot.exists()) {
                 const has = document.getElementById('has').value;
                 firebase.database().ref("addPackages/" + has).remove();
-                alert("Odstraněno! (" + has + ")")
+                odstranenoUsp()
 
                 }else{
       if (has != "") { 
-        document.getElementById("jinyalert").innerHTML = has + " nenalezeno!";
-        jinyalert()
+        document.getElementById("ntf").innerHTML = "Hastag (" + has + ") nebyl nalezen!";
+        ntf()
       } else {
-        document.getElementById("jinyalert").innerHTML = "# nebyl nalezen";
-        jinyalert()
+        document.getElementById("ntf").innerHTML = "# nebyl nalezen";
+        ntf
 
         }}} else {
       document.getElementById("jinyalert").innerHTML = "Musíte vyplnit #!";
@@ -171,6 +171,12 @@ function necosepokazilo() {
 
 function jinyalert() {
   var x = document.getElementById("jinyalert");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function ntf() {
+  var x = document.getElementById("ntf");
   x.className = "show";
   setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }

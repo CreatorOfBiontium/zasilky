@@ -38,11 +38,13 @@ const firebaseConfig = {
           console.log(snapshot.val());
         } else {
           console.log("Nejsou nalezena žádná data");
-          alert("Nebyla nalezena žádná data!");
+          document.getElementById("ntf").innerHTML = "Nebyla nalezena žádná data!";
+          ntf()
         }
       }
     else{
-      alert("Musíte vyplnit #!")
+      document.getElementById("jinyalert").innerHTML = "Musíte vyplnit #!";
+      jinyalert()
     }
     })
 
@@ -55,3 +57,15 @@ const firebaseConfig = {
       });
   }
   
+
+  function ntf() {
+    var x = document.getElementById("ntf");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
+
+  function jinyalert() {
+    var x = document.getElementById("jinyalert");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
