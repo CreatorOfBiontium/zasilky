@@ -93,7 +93,7 @@ const firebaseConfig = {
 
         };
 
-        alert("Aktualizováno! ("+ a  + b +  c +  d + ")")
+        aktualizovanoUsp()
 
         } else{
           if (has != "") {
@@ -135,12 +135,40 @@ const firebaseConfig = {
 
                 }else{
       if (has != "") { 
-        alert(has + " nenalezeno!")
+        document.getElementById("jinyalert").innerHTML = has + " nenalezeno!";
+        jinyalert()
       } else {
-        alert("# nebyl nalezen")
+        document.getElementById("jinyalert").innerHTML = "# nebyl nalezen";
+        jinyalert()
 
         }}} else {
-      alert("Musíte vyplnit #!")
+      document.getElementById("jinyalert").innerHTML = "Musíte vyplnit #!";
+      jinyalert()
 
         }})}
         else{}}
+
+
+function aktualizovanoUsp(){
+  var x = document.getElementById("aktualizovanoUsp");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function odstranenoUsp() {
+  var x = document.getElementById("odstranenoUsp");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function necosepokazilo() {
+  var x = document.getElementById("necosepokazilo");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function jinyalert() {
+  var x = document.getElementById("jinyalert");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
