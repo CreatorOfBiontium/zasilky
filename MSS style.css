@@ -529,7 +529,8 @@ input[type=text], select {
 
 #aktualizovanoUsp {
   visibility: hidden;
-  min-width: 250px;
+  min-width: 350px;
+  max-height: 250px;
   margin-left: -125px;
   background-color: #10c100;
   color: #fff;
@@ -571,7 +572,8 @@ input[type=text], select {
 
 #odstranenoUsp {
   visibility: hidden;
-  min-width: 250px;
+  min-width: 350px;
+  max-height: 250px;
   margin-left: -125px;
   background-color: #10c100;
   color: #fff;
@@ -614,7 +616,8 @@ input[type=text], select {
 
 #necosepokazilo {
   visibility: hidden;
-  min-width: 250px;
+  min-width: 350px;
+  max-height: 250px;
   margin-left: -125px;
   background-color: #ff1616;
   color: #fff;
@@ -656,7 +659,8 @@ input[type=text], select {
 
 #anahranoUsp {
   visibility: hidden;
-  min-width: 250px;
+  min-width: 350px;
+  max-height: 250px;
   margin-left: -125px;
   background-color: #10c100;
   color: #fff;
@@ -699,7 +703,8 @@ input[type=text], select {
 
 #jinyalert {
   visibility: hidden;
-  min-width: 250px;
+  min-width: 350px;
+  max-height: 250px;
   margin-left: -125px;
   background-color: #ffe600;
   color: #fff;
