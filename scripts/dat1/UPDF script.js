@@ -124,8 +124,7 @@ const firebaseConfig = {
 
       if (confirm("Opravdu chcete odstranit tato data?")) {
         
-      
-
+    
 
       firebase.database().ref("addPackages/" + has).get()
           .then((snapshot) => {
