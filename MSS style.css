@@ -530,7 +530,7 @@ input[type=text], select {
 #aktualizovanoUsp {
   visibility: hidden;
   max-width: 300px;
-  margin-right: 25%;
+  margin-right: 50%;
   background-color: #10c100;
   color: #fff;
   text-align: center;
@@ -573,7 +573,8 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-right: 10%;  margin-right: 25%;  background-color: #10c100;
+  margin-right: 50%;  
+  background-color: #10c100;
   color: #fff;
   text-align: center;
   border-radius: 3px;
@@ -616,7 +617,7 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-right: 25%;
+  margin-right: 50%;
   background-color: #ff1616;
   color: #fff;
   text-align: center;
@@ -659,7 +660,7 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-right: 25%;
+  margin-right: 50%;
   background-color: #10c100;
   color: #fff;
   text-align: center;
@@ -703,7 +704,7 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-right: 25%;
+  margin-right: 50%;
   background-color: #ffe600;
   color: #fff;
   text-align: center;
@@ -747,7 +748,7 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-right: 25%;
+  margin-right: 50%;
   background-color: #ff1616;
   color: #fff;
   text-align: center;
