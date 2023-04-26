@@ -531,7 +531,7 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-left: 45%;
+
   background-color: #10c100;
   color: #fff;
   text-align: center;
@@ -574,7 +574,6 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-left: 10%;
   background-color: #10c100;
   color: #fff;
   text-align: center;
@@ -618,7 +617,7 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-left: 10%;
+
   background-color: #ff1616;
   color: #fff;
   text-align: center;
@@ -660,8 +659,7 @@ input[type=text], select {
 #anahranoUsp {
   visibility: hidden;
   max-width: 300px;
- 
-  margin-left: 10%;
+
   background-color: #10c100;
   color: #fff;
   text-align: center;
@@ -705,7 +703,6 @@ input[type=text], select {
   visibility: hidden;
   max-width: 300px;
 
-  margin-left: 10%;
   background-color: #ffe600;
   color: #fff;
   text-align: center;
@@ -748,7 +745,7 @@ input[type=text], select {
 #ntf {
   visibility: hidden;
   max-width: 300px;
-  margin-left: 10%;
+
   background-color: #ff1616;
   color: #fff;
   text-align: center;
