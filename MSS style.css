@@ -529,19 +529,19 @@ input[type=text], select {
 
 #aktualizovanoUsp {
   visibility: hidden;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 80px;
   margin-left: -125px;
   background-color: #10c100;
   color: #fff;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 16px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 #aktualizovanoUsp.show {
@@ -572,19 +572,19 @@ input[type=text], select {
 
 #odstranenoUsp {
   visibility: hidden;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 80px;
   margin-left: -125px;
   background-color: #10c100;
   color: #fff;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 16px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 #odstranenoUsp.show {
@@ -616,19 +616,19 @@ input[type=text], select {
 
 #necosepokazilo {
   visibility: hidden;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 80px;
   margin-left: -125px;
   background-color: #ff1616;
   color: #fff;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 16px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 #necosepokazilo.show {
@@ -659,19 +659,19 @@ input[type=text], select {
 
 #anahranoUsp {
   visibility: hidden;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 80px;
   margin-left: -125px;
   background-color: #10c100;
   color: #fff;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 16px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 #nahranoUsp.show {
@@ -703,20 +703,19 @@ input[type=text], select {
 
 #jinyalert {
   visibility: hidden;
-  width: 350px;
-  height: 250px;
-  
+  width: 300px;
+  height: 80px;
   margin-left: -125px;
   background-color: #ffe600;
   color: #fff;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 16px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 #jinyalert.show {
@@ -748,19 +747,19 @@ input[type=text], select {
 
 #ntf {
   visibility: hidden;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 80px;
   margin-left: -125px;
   background-color: #ff1616;
   color: #fff;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 16px;
   position: fixed;
   z-index: 1;
   left: 50%;
   bottom: 30px;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 #ntf.show {
