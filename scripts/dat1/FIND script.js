@@ -11,7 +11,6 @@ const firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
   
   
-  
   function FindData(event) {
 
     event.preventDefault()
@@ -48,8 +47,7 @@ const firebaseConfig = {
     }
     })
 
-      
-
+    
 
       .catch((error) => {
         console.log("ERROR");
@@ -69,3 +67,6 @@ const firebaseConfig = {
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   }
+
+//If troubleshooting continue: 
+//1. 26.04.23 21:25 - XDddD

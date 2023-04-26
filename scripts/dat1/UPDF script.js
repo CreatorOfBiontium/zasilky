@@ -115,7 +115,6 @@ const firebaseConfig = {
       }}
 
 
-
     function remove(event){
       event.preventDefault();
 
@@ -180,3 +179,6 @@ function ntf() {
   x.className = "show";
   setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
+
+//If troubleshooting continue: 
+//1. 26.04.23 21:25 - XD

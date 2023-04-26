@@ -525,7 +525,6 @@ input[type=text], select {
 
 
 
-
 #aktualizovanoUsp {
   visibility: hidden;
   max-width: 300px;
@@ -571,7 +570,6 @@ input[type=text], select {
 #odstranenoUsp {
   visibility: hidden;
   max-width: 300px;
-
   margin-left: -125px;
   background-color: #10c100;
   color: #fff;
@@ -615,7 +613,6 @@ input[type=text], select {
 #necosepokazilo {
   visibility: hidden;
   max-width: 300px;
-
   margin-left: -125px;
   background-color: #ff1616;
   color: #fff;
