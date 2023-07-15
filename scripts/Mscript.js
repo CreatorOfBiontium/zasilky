@@ -8,3 +8,6 @@ console.log("Zásilky    v. 2.2.5    HACKERTBI   ||  Breadcrumb update")
     }
   }
 
+function mal(){
+  console.log("Tento program nebude nadále podporován. Aktualizace budou doručovány, ne ale tak frekventně. Web bude stále přístupný.")
+}
